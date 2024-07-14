@@ -1,6 +1,7 @@
-# Java-Programming
-The "Java Programming" GitHub repo is a repository dedicated to showcasing and sharing Java programming examples, projects, and resources. It provides a collection of code snippets, tutorials, and practical examples that demonstrate various aspects of Java programming.
+# Basic Java-Programming Knowledge
 <br>
-Author : Suyash ( Apna CLG )
+JDK - Java Development Kit (Contain everything to do with Java PRogram like Environment)
 <br>
-# Complete Java Course !!
+JRE - Java Runtime Environment (inside JDK, and help to run the Program, having tool to run java Program)
+<br>
+JVM - Java Virtual Machine (inside JRE, convert code into machine Language )
