@@ -1,4 +1,4 @@
-## Here Are the Basic Java Notes
+# Here Are the Basic Java Notes
 <br>
 
-## Developer : Suyash ( Hand Made ) 
+# Developer : Suyash ( Hand Made ) 
