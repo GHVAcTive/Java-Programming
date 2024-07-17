@@ -46,3 +46,29 @@ A **variable** is a named of memory location. It is user Defined name and Variab
         }
     }
     ```
+
+## Example Code
+
+```java
+class Hello {
+    static int A = 10;  // Static Variable 
+    int B = 20; // Instance Variable 
+
+    public static void main(String arg[]) {
+        int C = 30; // Local Variable 
+        
+        Hello ref = new Hello();
+
+        System.out.println(Hello.A); // Static are the class Members
+        System.out.println(ref.B);
+        System.out.println(C);
+    }
+}
+
+/* 
+   Output: 
+   10
+   20
+   30
+*/
+```
