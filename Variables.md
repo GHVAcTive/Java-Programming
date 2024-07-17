@@ -72,3 +72,27 @@ class Hello {
    30
 */
 ```
+# Example of Using Static and Instance Variables in Java
+
+Here is an example code to demonstrate the usage of static and instance variables in a Java class:
+
+```java
+class A {
+    static int a; // Static variable
+
+    void fun() {
+        a = 1; // Assigning value to static variable
+        int b = 10; // Local variable
+
+        System.out.println("a: " + a + ", b: " + b); // Output the values of a and b
+        a++; // Incrementing static variable
+        b++; // Incrementing local variable
+    }
+
+    public static void main(String[] args) { // Corrected method signature
+        A r = new A();
+        r.fun(); // Call the fun method
+        r.fun(); // Call the fun method again
+    }
+}
+```
