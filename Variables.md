@@ -36,6 +36,7 @@ A **variable** is a named of memory location. It is user Defined name and Variab
 
 ## Static Variable
 - A variable which is declared as static; it is shared among all instances of the class.
+- Once Static Variable is change it take that changes through out the whole Program.
 - ✏️ **Syntax with example:**
     ```java
     public class Example {
@@ -85,7 +86,7 @@ class A {
         int b = 10; // Local variable
 
         System.out.println("a: " + a + ", b: " + b); // Output the values of a and b
-        a++; // Incrementing static variable
+        a++; // Incrementing static variable 
         b++; // Incrementing local variable
     }
 
