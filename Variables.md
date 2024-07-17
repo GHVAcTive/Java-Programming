@@ -6,3 +6,43 @@ A **variable** is a named of memory location. It is user Defined name and Variab
 - **Definition:** A variable is a **storage location** with a **name** for holding data.
 - **Purpose:** To **store** and **manipulate** information in a program.
 - **Analogy:** Like a **container** with a label where you can put and retrieve data.
+
+# Variable Types in Java
+
+## Local Variable
+- A variable declared inside the body of the methods and its parameters.
+- ✏️ **Syntax with example:**
+    ```java
+    public class Example {
+        public void method() {
+            int localVar = 10; // Local variable
+        }
+    }
+    ```
+
+## Instance Variable
+- A variable which is inside the class but outside all the methods (also outside the main method).
+- ✏️ **Syntax with example:**
+    ```java
+    public class Example {
+        int instanceVar; // Instance variable
+
+        public static void main(String[] args) {
+            Example obj = new Example();
+            obj.instanceVar = 5;
+        }
+    }
+    ```
+
+## Static Variable
+- A variable which is declared as static; it is shared among all instances of the class.
+- ✏️ **Syntax with example:**
+    ```java
+    public class Example {
+        static int staticVar; // Static variable
+
+        public static void main(String[] args) {
+            Example.staticVar = 10;
+        }
+    }
+    ```
