@@ -14,7 +14,7 @@
     ```
 
 ### 2. `Arrays.toString` 📝
--**Description**: Returns a string representation of the array.
+- **Description**: Returns a string representation of the array.
 - **Syntax:**
   ```java
   String str = Arrays.toString(array);
