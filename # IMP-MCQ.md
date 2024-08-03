@@ -5,4 +5,5 @@
 - #### **`Time Complexity`** : BTO ( Beta Theta Omega ).
 - #### **`Space Complexity`** : Auxiluary (Space ) ( <-- C = a + b --> ) + Imput (Space).
 
-name With the powerfull games.
+name With the powerfull games
+Let's Play the Omission.
