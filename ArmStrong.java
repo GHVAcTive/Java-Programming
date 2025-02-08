@@ -6,7 +6,8 @@ class A
     {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a Number : ");
-        int a = scan.nextInt();
+        int a = scan.next();
+        A sol = new A(); // This the Class Creation
         System.out.println("Your Number is "+ check_ArmStrong(a));
         
     }
