@@ -8,4 +8,4 @@
 name With the powerfull games
 Let's Play the Omission.
 Hi power
-open Power
+open Power.
